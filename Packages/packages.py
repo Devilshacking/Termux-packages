@@ -16,8 +16,7 @@ print(r''' \033[91m
     |_|  |______|_|  \_\_|  |_|\____//_/ \_\ |_| /_/    \_\_____|_|\_\/_/    \_\_____|______|
                                                                 
 CREATED BY Devils Hacking
-\033[0m
-''')
+\033[0m''')
 
 # Slow print function
 def slowprint(s, delay=0.05):
