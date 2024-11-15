@@ -7,7 +7,7 @@ import sys
 os.system("clear")
 
 # Display banner
-print('''\033[91m
+print(r''' \033[91m
 
   _______ ______ _____  __  __ _    ___   __  _____        _____ _  __          _____ ______ 
  |__   __|  ____|  __ \|  \/  | |  | \ \ / / |  __ \ /\   / ____| |/ /    /\   / ____|  ____|
@@ -15,8 +15,7 @@ print('''\033[91m
     | |  |  __| |  _  /| |\/| | |  | | > <   |  ___/ /\ \| |    |  <    / /\ \| | |_ |  __|  
     | |  | |____| | \ \| |  | | |__| |/ . \  | |  / ____ \ |____| . \  / ____ \ |__| | |____ 
     |_|  |______|_|  \_\_|  |_|\____//_/ \_\ |_| /_/    \_\_____|_|\_\/_/    \_\_____|______|
-                                                                                                                                                                                      
-
+                                                                
 CREATED BY Devil Hacking
 ''')
 
@@ -28,12 +27,12 @@ def slowprint(s, delay=0.05):
         time.sleep(delay)
 
 # Display package options
-print(''' \033[95m
+print(r''' \033[95m
 +--------------------------------------+ 
 | This Tool Installs All Basic Packages | 
 +--------------------------------------+ 
 |           Devil Hacking              |
-+--------------------------------------+''')
++--------------------------------------''')
 
 slowprint(''' \033[93m
 [01] python
@@ -88,7 +87,7 @@ slowprint('''\033[96m
 This Command for access Storage in Termux
 [00] termux-setup-storage''')
 
-print ("                                            ")
+print("                                            ")
 choice = input("\033[93mDo You Want to Install All Packages [y/n] : ")
 if choice == 'n':
     sys.exit()
@@ -118,7 +117,9 @@ if choice == 'y':
     os.system("apt install w3m -y")
     os.system("apt install hydra -y")
     
-    print("""Join our Telegram""")
+    print("""
+    Join our Telegram
+    """)
 
     os.system("apt install ruby -y")
     os.system("apt install macchanger -y")
