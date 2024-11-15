@@ -7,7 +7,7 @@ import sys
 os.system("clear")
 
 # Display banner
-print(r''' \033[91m
+print(r'''\033[91m
 
   _______ ______ _____  __  __ _    ___   __  _____        _____ _  __          _____ ______ 
  |__   __|  ____|  __ \|  \/  | |  | \ \ / / |  __ \ /\   / ____| |/ /    /\   / ____|  ____|
@@ -27,7 +27,7 @@ def slowprint(s, delay=0.05):
         time.sleep(delay)
 
 # Display package options
-print(r''' \033[95m
+print(r'''\033[95m
 +--------------------------------------+ 
 | This Tool Installs All Basic Packages | 
 +--------------------------------------+ 
