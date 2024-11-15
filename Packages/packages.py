@@ -3,11 +3,16 @@ import os
 import time
 import sys
 
+# Enable ANSI color codes in Windows Terminal
+if os.name == 'nt':
+    os.system('')
+
 # Clear screen
 os.system("clear")
 
 # Display banner
-print(r''' \033[91m
+print("\033[92m")
+print(r'''
   _______ ______ _____  __  __ _    ___   __  _____        _____ _  __          _____ ______ 
  |__   __|  ____|  __ \|  \/  | |  | \ \ / / |  __ \ /\   / ____| |/ /    /\   / ____|  ____|
     | |  | |__  | |__) | \  / | |  | |\ V /  | |__) /  \ | |    | ' /    /  \ | |  __| |__   
@@ -16,7 +21,8 @@ print(r''' \033[91m
     |_|  |______|_|  \_\_|  |_|\____//_/ \_\ |_| /_/    \_\_____|_|\_\/_/    \_\_____|______|
                                                                 
 CREATED BY Devils Hacking
-\033[0m''')
+''')
+print("\033[0m")  # Reset colors
 
 # Slow print function
 def slowprint(s, delay=0.05):
@@ -26,15 +32,17 @@ def slowprint(s, delay=0.05):
         time.sleep(delay)
 
 # Display package options
-print(r''' \033[95m
+print("\033[95m")
+print(r'''
 +--------------------------------------+ 
 | This Tool Installs All Basic Packages | 
 +--------------------------------------+ 
 |           Devils Hacking              |
-+--------------------------------------
-\033[0m''')
++--------------------------------------+
+''')
+print("\033[0m")  # Reset colors
 
-slowprint(''' \033[93m
+slowprint('''\033[93m
 [01] python
 [02] python2
 [03] python-dev
@@ -83,15 +91,15 @@ This Command for access Storage in Termux:
 [00] termux-setup-storage
 \033[0m''')
 
-# Get user choice
-choice = input("\033[93mDo You Want to Install All Packages [y/n] : \033[0m")
+# User input
+choice = input("\033[93mDo You Want to Install All Packages [y/n]: \033[0m")
 if choice.lower() == 'n':
     sys.exit()
 
 if choice.lower() == 'y':
     os.system("apt update && apt upgrade -y")
     
-    # List of packages to install
+    # List of packages
     packages = [
         "python", "python2", "python3", "php", "java", "git", "perl", "bash", 
         "nano", "curl", "openssl", "openssh", "wget", "clang", "nmap", "w3m", 
@@ -105,7 +113,6 @@ if choice.lower() == 'y':
     
     os.system("termux-setup-storage")
     
-    # Final message
     slowprint('''\033[95m
 +----------------------------------------+
 |     Welcome To Devils Hacking          |
@@ -115,4 +122,3 @@ if choice.lower() == 'y':
 \033[0m''')
 
     input("\n\nPress the enter key to exit: ")
-  
