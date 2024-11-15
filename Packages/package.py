@@ -16,7 +16,7 @@ print(r''' \033[91m
     | |  | |____| | \ \| |  | | |__| |/ . \  | |  / ____ \ |____| . \  / ____ \ |__| | |____ 
     |_|  |______|_|  \_\_|  |_|\____//_/ \_\ |_| /_/    \_\_____|_|\_\/_/    \_\_____|______|
                                                                 
-CREATED BY Devil Hacking
+CREATED BY Devils Hacking
 ''')
 
 # Slow print function
@@ -31,7 +31,7 @@ print(r''' \033[95m
 +--------------------------------------+ 
 | This Tool Installs All Basic Packages | 
 +--------------------------------------+ 
-|           Devil Hacking              |
+|           Devils Hacking              |
 +--------------------------------------''')
 
 slowprint(''' \033[93m
@@ -97,7 +97,6 @@ if choice == 'y':
     os.system("pkg install git -y")
     os.system("apt install python -y")
     os.system("apt install python2 -y")
-    os.system("apt install python-dev -y")
     os.system("apt install python3 -y")
     os.system("apt install php -y")
     os.system("apt install java -y")
@@ -118,16 +117,11 @@ if choice == 'y':
     os.system("apt install hydra -y")
     
     print("""
-    Join our Telegram
-    """)
-
+    |      Join our Telegram    |""")
+print("\033[93m    |       @Devils_hacking     |\033[0m
     os.system("apt install ruby -y")
     os.system("apt install macchanger -y")
     os.system("apt install host -y")
-    
-    slowprint('''\033[95m|    t.me/Devils_hacking    |
-    | Join Us On Telegram For Learn Ethical Hacking  |''')
-    
     os.system("apt install dnsutils -y")
     os.system("apt install coreutils -y")
     os.system("apt install fish -y")
@@ -136,6 +130,10 @@ if choice == 'y':
     os.system("apt install cowsay -y")
     os.system("apt install unzip -y")
     os.system("apt install vim -y")
+     
+    slowprint('''\033[93m    |    t.me/Devils_hacking    |
+    | Join Us On Telegram For Learn Ethical Hacking  |''')
+    
     os.system("apt install wcalc -y")
     os.system("apt install bmon -y")
     os.system("apt install unrar -y")
