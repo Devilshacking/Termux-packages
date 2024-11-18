@@ -1,3 +1,5 @@
+
+
 ## My Setup & Packages
 
 - Update Termux Packages
@@ -298,15 +300,13 @@ chmod 700 -R ~/<filename or folder name>
 rm -rf ~/<filename or folder name>
 ```
 
-- Customize the Termux Terminal Emulator - <https://amsk.in/2IF0ibt>
-
-- Install `Termux-exec` Read More about this Package - <https://wiki.termux.com/wiki/Termux-exec>
+- Install `Termux-exec` 
 
 ```bash
 pkg install termux-exec
 ```
 
-- Install Termux API (Full info about this - <https://wiki.termux.com/wiki/Termux:API> (Don't Forget to Install Termux API APP from F-Driod)
+- Install Termux API (Full info - <https://wiki.termux.com/wiki/Termux:API> (Don't Forget to Install Termux API APP from F-Driod)
 
 ```bash
 pkg install termux-api
@@ -365,4 +365,4 @@ hash -r
 pkg help
 ```
 
-Bookmark this Page More Updates on the way 😊
+Join Telegram to keep yourslef updated 😈
