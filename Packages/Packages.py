@@ -1,3 +1,5 @@
+# https://mega.nz/file/fkcHCKoA#U6WBvOi6lDqZ5Xaqc6JeKMl3Ao5OYo1zF_BD6anAd10
+
 #!/usr/bin/python3
 import os
 import time
