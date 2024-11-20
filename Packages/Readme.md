@@ -1,6 +1,10 @@
+# Termux Hacking🔥
+Install Termux application from a Playstore and to learn further join our telegram or visit our website.
 
 
-## My Setup & Packages
+- [PLAYSTORE](https://play.google.com/store/apps/details?id=com.termux&hl=en_IN) 
+
+## Basic Setup & Packages🎯
 
 - Update Termux Packages
 
@@ -365,4 +369,4 @@ hash -r
 pkg help
 ```
 
-Join Telegram to keep yourslef updated 😈
+Join our Telegram to keep yourslef updated 😈
