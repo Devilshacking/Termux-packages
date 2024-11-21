@@ -1,8 +1,15 @@
 # Termux Hacking🔥
 Install Termux application from a Playstore and to learn further join our telegram or visit our website.
 
+![termux](https://github.com/user-attachments/assets/76a2ee9a-9d1c-4b4c-856f-ccba108b78d8)
 
 - [PLAYSTORE](https://play.google.com/store/apps/details?id=com.termux&hl=en_IN) 
+
+# How to Install?
+### All basic packages install with few commands, Just follow below commands!!
+- Make sure you have 500MB of free storage 
+
+
 
 ## Basic Setup & Packages🎯
 
