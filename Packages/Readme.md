@@ -6,10 +6,13 @@ Install Termux application from a Playstore and to learn further join our telegr
 - [PLAYSTORE](https://play.google.com/store/apps/details?id=com.termux&hl=en_IN) 
 
 # How to Install?
-### All basic packages install with few commands, Just follow below commands!!
+### All basic packages can be installed with just a few commands. Follow the instructions below!
 - Make sure you have 500MB of free storage 
 
-
+## Install below all commands in one go 😉
+- Visit our website and install all termux basic commands just in few seconds!!
+  
+### OR
 
 ## Basic Setup & Packages🎯
 
